@@ -22,10 +22,13 @@ body {
     display: flex;
     width: 70%;
 }
+  
 
 .text-container {
     padding: 16px;
     width: 70%;
+    display: flexbox;
+    flex-direction: row;
 }
 
 .image-container {
@@ -33,6 +36,8 @@ body {
     padding: 16px;
     width: 30%;
     background-repeat: no-repeat;
+    display: flexbox;
+    flex-direction: row;
 }
 
 .image-container img {
@@ -86,3 +91,26 @@ body {
     width: 150px;
 }
 
+
+
+@media screen and (max-width: 806px){
+
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-container-goals {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #a {
+        order: 1; 
+    }
+    
+    #b {
+        order: 2;
+    }
+    
+}
