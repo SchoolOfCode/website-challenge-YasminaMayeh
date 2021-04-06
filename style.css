@@ -1,0 +1,87 @@
+.header1{
+    background-color:rgb(252, 244, 244);
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ .header2 {
+    background-color: white;
+    text-align: center;
+    font-size:large;
+    padding: 15px
+ }
+
+
+ nav{
+    max-width: none;
+    text-align-last: right;
+    padding: 5px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    /* display:white; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Navbar Links */
+.topnav a {
+    float: left;
+    display: block;
+    color: balck ;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black ;
+
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1634838/pexels-photo-1634838.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    max-width: none;
+    padding: 5px;
+    
+
+}   
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://images.pexels.com/photos/2817430/pexels-photo-2817430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    /* padding: 10px; */
+
+
+}
+
+.flex-container > div{
+    display: flex;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 28%;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.first-container {
+    background-color:whitesmoke;
+}
+
+.second-container {
+    background-color: whitesmoke;
+}
+
+.third-container {
+    background-image: url(https://images.pexels.com/photos/1440406/pexels-photo-1440406.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-color: transparent;
+    background-blend-mode: overlay;
+
+}
