@@ -1,19 +1,36 @@
 header {
-    
+
     text-align: center;
-    background-color: burlywood;
+    /* background-color: rgb(126, 117, 105); */
     background-size: 100% 100%;
     padding: 20px;
+    background-color:rgb(44, 34, 32);
+  
+}
+.no-bullet-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+.no-bullet-list li {
+    padding-bottom: 10px;
+}
+.line-height {
+    line-height: 10px;
+
+}
 .welcome-message {
     font-size: 25px;
+    color: blanchedalmond;
+   
 }
 
 body {
     font-family:serif;
     font-style: normal;
     font-size: 99%;
+   
 }
 
 .flex-container {
@@ -38,6 +55,7 @@ body {
     background-repeat: no-repeat;
     display: flexbox;
     flex-direction: row;
+    border-radius: 20px;
 }
 
 .image-container img {
@@ -78,6 +96,15 @@ body {
     opacity: 0.5;
 }
 
+.footer-container {
+    display: flex;
+}
+.footer-container ol li {
+    width: auto;
+    padding: 10px;
+
+}
+
 
 
 .ryan-image{
@@ -92,7 +119,60 @@ body {
 }
 
 
+footer {
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+    color: black;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+   
+    
+}
 
+footer ol {
+    list-style: none;
+    display: flexbox;
+    margin:0;
+    padding:0;
+    text-decoration-;
+
+}
+
+footer ol li a {
+color: black;
+text-decoration: none;
+
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 27, 27);
+    
+  }
+  
+.topnav li {
+    float: left;
+  }
+  
+ .topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav li a:hover {
+    background-color:rgb(44, 8, 8) ;
+  }
 @media screen and (max-width: 806px){
 
     .flex-container {
@@ -100,10 +180,10 @@ body {
         justify-content: center;
     }
 
-    .flex-container-goals {
+    /* .flex-container-goals {
         flex-direction: column-reverse;
         justify-content: center;
-    }
+    } */
 
     #a {
         order: 1; 
@@ -112,5 +192,17 @@ body {
     #b {
         order: 2;
     }
-    
-}
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      
+      ul.sidenav li a {
+        float: left;
+        padding: 15px;
+      }
+
+  } 
+
+   
